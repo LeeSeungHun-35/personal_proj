@@ -5,6 +5,8 @@ import Home from './page/Home';
 import Sym from './page/Sym';
 
 function App() {
+  
+  
   return (
     <div className="App">
       <BrowserRouter>

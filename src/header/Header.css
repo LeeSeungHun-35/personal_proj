@@ -1,5 +1,19 @@
+
 .Header {
-    height: 20px;
-    background-color: black;
-    color: white;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px; 
+    background-color: #f8f9fa;
+  }
+  
+  .Header a {
+    margin: 0 15px; 
+    text-decoration: none;
+    color: #333; 
+  }
+  
+  .Header a:hover {
+    color: #007bff; 
+  }
+  
