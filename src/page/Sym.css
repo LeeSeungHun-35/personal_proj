@@ -1,6 +1,6 @@
 .Sym {
     height: calc(100vh - 20px);
-    background-color: #eaf4f4;
+    background-color: #006108;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

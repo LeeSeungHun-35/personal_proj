@@ -7,7 +7,7 @@ const symptoms = [
     { id: 3, name: '근육통', diseases: ['근육 염좌', '피로', '미세 손상'] },
     { id: 4, name: '발열', diseases: ['감기', '독감', '염증'] },
     { id: 5, name: '기침', diseases: ['감기', '기관지염', '알레르기'] },
-    { id: 6, name: '목 통증', diseases: ['인후염', '편도선염', '경부근육통'] },
+    { id: 6, name: '목 통증', diseases: ['인후염', '편도선염', '경부근육통', '목디스크'] },
 ];
 
 const Sym = () => {
