@@ -5,7 +5,14 @@ import './Sym.css';
 const Sym = () => {
     return (
         <div className='Sym'>
-           asdasdsad
+            <div>
+                Sym영역
+            </div>
+
+            <div>
+                asdasd
+            </div>
+
         </div>
     )
 }

@@ -1,4 +1,7 @@
 .Sym {
     height: calc(100vh - 20px);
     background-color: rgb(255, 145, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
 }
