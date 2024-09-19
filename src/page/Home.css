@@ -1,5 +1,51 @@
 .Home {
-    background-color: darkcyan;
-    color: black;
-    height:  calc(100vh - 20px);
+    background-color: #f0f4f8;
+    color: #333;
+    height: calc(100vh - 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Home-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.Home-intro, .Home-features, .Home-updates, .Home-footer {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.Home-features {
+    display: flex;
+    gap: 20px;
+}
+
+.feature {
+    flex: 1;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.Home-updates ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Home-updates li {
+    margin-bottom: 10px;
+}
+
+.Home-footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
