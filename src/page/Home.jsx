@@ -17,7 +17,7 @@ const Home = () => {
 
         </p>
       </section>
-
+ 
       <section className='Home-features'>
         <div className='feature'>
           <h3>정확한 예측</h3>
@@ -34,9 +34,10 @@ const Home = () => {
       </section>
 
       <section className='Home-updates'>
-        <h2>설명</h2>
+        <h2>※이용시 참고사항※</h2>
         <p>
-          서비스 관련 내용 추가
+        사용자가 2개 이상의 증상을 선택할 경우, 해당 증상들을 모두 복합적으로 가지는 질병은 본 서비스에서 제공하지 않습니다<br/>
+        예를 들어, 사용자가 "두통"과 "기침"을 선택했을 때, 이 두 증상이 함께 나타나는 병(ex: 독감)이 아니라 각각의 증상에 따른 질병(ex: 편두통, 감기)을 예측하는 방식으로 작동합니다.
 
         </p>
       </section>
