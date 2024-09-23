@@ -1,17 +1,52 @@
 .Header {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    padding: 10px; 
-    background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #007bff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.Header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.Header .nav-links {
+  display: flex;
+}
+
+.Header a {
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.Header a:hover {
+  color: #ffeb3b;
+}
+
+@media (max-width: 768px) {
+  .Header {
+      flex-direction: column;
   }
-  
+
+  .nav-links {
+      margin-top: 10px;
+      gap: 50px;
+  }
+
   .Header a {
-    margin: 0 15px; 
-    text-decoration: none;
-    color: #ff0000; 
+      margin: 5px 0;
   }
-  
-  .Header a:hover {
-    color: #007bff; 
-  }
+}
+

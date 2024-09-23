@@ -13,13 +13,13 @@
     color: #fff;
     padding: 20px;
     text-align: center;
-    border-radius: 8px;
+    
 }
 
 .Home-intro, .Home-features, .Home-updates, .Home-footer {
     background-color: #ffffff;
     padding: 20px;
-    border-radius: 8px;
+    
 }
 
 .Home-features {
@@ -36,7 +36,7 @@
     flex: 1;
     background-color: #e9ecef; 
     padding: 10px;
-    border-radius: 8px;
+    
 }
 
 .feature h3 {
@@ -70,5 +70,5 @@
 
 .Home-updates {
     background-color: #e6f2ff; 
-    border-radius: 10px; 
+    ; 
 }
