@@ -8,7 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  width: 100%;
+  width: 97%;
 }
 
 .Header .logo {
@@ -49,4 +49,3 @@
       margin: 5px 0;
   }
 }
-
