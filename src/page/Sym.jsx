@@ -36,6 +36,9 @@ const Sym = () => {
     return (
         <div className='Sym'>
             <div className='symptom-list'>
+                실제 프로젝트때는 간단 머신러닝 알고리즘 사용<br/>
+                (Decision Tree, KNN, SVM 등)
+                <br/>
                 <h2>나의 증상</h2>
                 {symptoms.map(symptom => (
                     <button
