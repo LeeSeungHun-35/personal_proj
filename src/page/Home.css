@@ -1,7 +1,7 @@
 .Home {
     background-color: #f0f4f8; 
     color: #333;
-    height: calc(100vh - 20px);
+    height: calc(100vh - 62px);
     display: flex;
     flex-direction: column;
     gap: 20px;
