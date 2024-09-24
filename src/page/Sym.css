@@ -10,7 +10,7 @@
 }
 
 .symptom-list, .disease-info {
-    
+
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -32,7 +32,6 @@
     color: #0073e6; 
     font-size: 1.8em;
 }
-
 
 .symptom-list button {
     display: flex;
