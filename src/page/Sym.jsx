@@ -16,10 +16,10 @@ const Sym = () => {
     const handleSymptomClick = (symptom) => {
         setSelectedSymptoms((prevSelected) => {
             if (prevSelected.includes(symptom)) {
-                // 이미 선택된 증상 제거
+                /* 이미 선택된 증상 제거 */
                 return prevSelected.filter(s => s !== symptom);
             } else {
-                // 선택되지 않은 증상 추가
+                /* 선택되지 않은 증상 추가 */
                 return [...prevSelected, symptom];
             }
         });
