@@ -8,7 +8,8 @@ const Header = () => {
             <div className='logo'>질병 예측</div>
             <div className='nav-links'>
                 <Link to='/'>홈</Link>|
-                <Link to='/Sym'>질병 확인</Link>
+                <Link to='/Sym'>질병 확인</Link> |
+                <Link to='/Test'>백엔드 테스트</Link>
             </div>
         </nav>
     )
