@@ -1,0 +1,6 @@
+.Test{
+    height: calc(100vh - 62px);
+    background-color:rgb(194, 233, 255);   
+    text-align: center;
+    justify-content: center;
+}
